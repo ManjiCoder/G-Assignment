@@ -66,8 +66,8 @@ const MerchantInfo = () => {
 
                 <View className="justify-center gap-y-1">
                   <Text className="font-bold text-blue-900 text-base font-sans">
-                    {item?.name.length > 27
-                      ? item?.name.substring(0, 27) + '...'
+                    {item?.name.length > 23
+                      ? item?.name.substring(0, 23) + '...'
                       : item?.name}
                   </Text>
                   <View className="flex-row gap-2">
@@ -77,8 +77,8 @@ const MerchantInfo = () => {
                       color="navy"
                     />
                     <Text className="text-xs font-medium">
-                      {item?.city.length > 18
-                        ? item?.city.substring(0, 18) + '...'
+                      {item?.city.length > 16
+                        ? item?.city.substring(0, 16) + '...'
                         : item?.city}
                     </Text>
                     <Text className="text-xs">
