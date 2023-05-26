@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {"title": "Ms", "first": "Buse", "last": "Erginsoy"},
+      "location": {
+        "street": {"number": 1128, "name": "Anafartalar Cd"},
+        "city": "İstanbul",
+        "state": "Samsun",
+        "country": "Turkey",
+        "postcode": 13587,
+        "coordinates": {"latitude": "70.8521", "longitude": "117.3083"},
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "buse.erginsoy@example.com",
+      "login": {
+        "uuid": "16f2116a-0a3b-4416-98b4-811349e74c8d",
+        "username": "goldenlion193",
+        "password": "pippen",
+        "salt": "MmSsgz2H",
+        "md5": "5f92509eb7457c16341408f89f0ec3a5",
+        "sha1": "a0619e0f011b177e502c4d1c377d21417ca163ed",
+        "sha256": "d7038f5c1a9a99998829f3a1c70a8a658b05567f2786c237739cd0cdecfc0913"
+      },
+      "dob": {"date": "1948-05-18T18:21:57.206Z", "age": 75},
+      "registered": {"date": "2006-02-01T07:55:01.344Z", "age": 17},
+      "phone": "(594)-285-8050",
+      "cell": "(668)-612-4536",
+      "id": {"name": "", "value": null},
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/28.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+      },
+      "nat": "TR"
+    }
+  ],
+  "info": {
+    "seed": "1fd10ce9e1e54c87",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
