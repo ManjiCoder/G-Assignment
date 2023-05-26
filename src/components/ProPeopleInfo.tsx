@@ -76,14 +76,14 @@ const ProPeopleInfo = () => {
                       size={20}
                       color="navy"
                     />
-                    <Text className="text-xs font-medium">
+                    <Text className="text-xs font-medium text-gray-700">
                       {item?.city.length > 16
                         ? item?.city.substring(0, 16) + '...'
                         : item?.city}
                     </Text>
-                    <Text className="text-xs">
+                    <Text className="text-xs text-gray-700">
                       within{' '}
-                      <Text className="font-medium">
+                      <Text className="font-medium text-gray-700">
                         {Math.floor(Math.random() * 100) + 1}Km
                       </Text>
                     </Text>
